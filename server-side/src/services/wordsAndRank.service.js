@@ -40,7 +40,7 @@ if(_studentScore>score){
 }
 }
 let scoresBelowStudenScoreLength =scoresBelowStudenScore.length;
-let rank =scoresBelowStudenScoreLength/allScoresLength
+let rank =((scoresBelowStudenScoreLength/allScoresLength)*100).toFixed(2)
     return rank
 }
 
