@@ -3,12 +3,12 @@
  
  #RUN
  
- 1-run back-end first :
- a-npm i
- b-npm run dev
- 2-run frond-en :
- a-npm i
- b-npm start  
+ 1-run back-end first :<br />
+ a-npm i<br />
+ b-npm run dev<br /> <br /> 
+ 2-run frond-en :<br />
+ a-npm i<br />
+ b-npm start  <br />
  
  #USE and TEST
  complete the quiz 
