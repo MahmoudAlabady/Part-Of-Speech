@@ -3,10 +3,9 @@ const wordsAndRank = require('../services/wordsAndRank.service')
 const router = new express.Router();
 
 
-// const auth = require('../middelware/auth')
+
 
 //get words
-////////////////////////
 router.get('/wordsList',async(req,res)=>{
     let words = await wordsAndRank.loadTestData().wordList
     let selected = wordsAndRank.selectedWordsList(words)

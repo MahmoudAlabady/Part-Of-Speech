@@ -2,12 +2,9 @@ const express = require('express');
 const router = new express.Router(); 
 const wordsAndRank = require('../services/wordsAndRank.service')
 
-// const auth = require('../middelware/auth')
-// const multer = require('multer')
 
 
-
-
+//get the rank 
 router.get('/rank/:studentScore',async(req,res)=>{
     const _studentScore = req.params.studentScore;
     let scores = await wordsAndRank.loadTestData().scoresList
